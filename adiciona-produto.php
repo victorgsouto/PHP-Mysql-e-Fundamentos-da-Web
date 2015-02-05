@@ -1,7 +1,9 @@
-<?php include("cabecalho.php"); ?>
-<?php include("conecta.php"); ?>
-<?php include("banco-produto.php"); ?>
-
+<?php include("cabecalho.php"); 
+ include("conecta.php"); 
+ include("banco-produto.php");
+ include("verifica-usuario.php")
+ vereficaUsuario();
+ ?>
 <?php
 
 $nome = $_POST["nome"];
